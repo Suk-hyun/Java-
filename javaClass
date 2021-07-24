@@ -1,0 +1,19 @@
+public class MyClass {
+    
+    public static void main(String args[]) {
+         double valueofsupply = 12345.0;
+         double vatRate = 0.1;
+         double expenseRate = 0.3;
+         
+        System.out.println("Value of supply : "+valueofsupply); 
+        System.out.println("VAT : "+ (valueofsupply*vatRate) );
+        System.out.println("Total : " + (valueofsupply + valueofsupply)*vatRate);
+        System.out.println("Expense : " + (valueofsupply*expenseRate));
+        System.out.println("Income : " + (valueofsupply - valueofsupply*expenseRate));
+        System.out.println("Dividend 1 : "+ (valueofsupply -valueofsupply*expenseRate) * 0.5);
+        System.out.println("Dividend 2 : "+ (valueofsupply -valueofsupply*expenseRate) * 0.3);
+        System.out.println("Dividend 3 : "+ (valueofsupply -valueofsupply*expenseRate) * 0.2);
+        
+        
+    }
+}
